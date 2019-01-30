@@ -1,0 +1,10 @@
+body    { background: #222; color: #ee6; margin-left: 12px; margin-right: 12px;}
+li      { color: #ee6 }
+a       { color: #6ee }
+h1, h2  { color: #6e6 }
+h3      { color: #a6e }
+h4      { color: #6e6 }
+h5      { color: #ff751a }
+li      { margin-bottom: 0.6em; }
+code    { color: #a6e }
+em      { color: #f26; }
