@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>LKC - Writing Quizzes</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+
+</head>
+<body>
+
+<h2>Coding Challenge: Writing Quizzes</h2>
+
+<h3>Part 1: Quiz with Points</h3>
+
+Write a quiz that tracks how many questions the user got correct, and prints that number at the end of the quiz.
+<br>
+If you need a hint, take a look at this example quiz at the bottom of this page. 
+
+<br><br>
+
+
+<h3>Part 2: Hogwarts Sorting Quiz</h3>
+Create a quiz that sorts you into a Hogwarts house (Gryffindor, Slytherin, Ravenclaw, and Hufflepuff). Use variables to track points for each house. Each question should add a point to one of the house points variables. At the end, figure out which house has the most points. 
+
+<br><br>
+
+<h3>Example Quiz</h3>
+
+<pre><code class="python">
+# Lines that start with '#' like this one aren't run by the computer. They are comments to explain what the code does. 
+
+# First, create a variable to store the user's points
+# The user starts with 0 points
+num_points = 0
+
+print("Let's see how much you know about penguins")
+
+# use 'input' to ask a question and get an answer
+answer = input("Can penguins fly? ")
+if answer == "no":
+  print("That's correct!")
+  # add 1 to the variable storing the points
+  num_points = num_points + 1
+
+answer = input("Can penguins swim? ")
+if answer == "yes":
+  print("That's correct!")
+  num_points = num_points + 1
+
+answer = input("Can penguins teleport? ")
+if answer == "no":
+  print("That's correct!")
+  num_points = num_points + 1
+
+print("Quiz complete...")
+
+# print the number stored in the num_points variable
+print("You earned {} points".format(num_points))
+
+# The '>' symbol means 'is larger than'
+if num_points > 2:
+  print("You're a penguin expert!")
+# The '<' symbol means 'is smaller than'
+if num_points < 2:
+  print("You should spend more time with penguins.")
+
+</code></pre>
+
+</body>
+</html>
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/monokai-sublime.min.css">
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+<title>LKC - TicTacToe</title>
+<link rel="stylesheet" type="text/css" href="../style.css">
+
+
+</head>
+<body>
+
+<h2>Tic-Tac-Toe</h2>
+
+Let's make the simplest version of Tic-Tac-Toe you can think of. Once you have the basics working, you can continue to code the game, and make it fully functional and more fantastic.
+<br><br>
+
+Our <em>simple</em> version of Tic-Tac-Toe will have just <em>one player</em>, and that player will have <em>4 moves</em>. At the end, the game won't even tell you whether you won or not, but it will show you the board. Sound simple? Then, once this is working, you can add more features to make your game more like regular Tic-Tac-Toe.
+<br><br>
+
+Here are some hints for how to write the code for your Tic-Tac-Toe game:
+<ul>
+ <li>Use <code>input()</code> to let the player choose where to go. The player will enter a number 1-9 to select which spot they want to go.</li>
+ <li>Use 9 variables to store the spots on the board. Each spot will start out blank (<code>spot1 = " "</code>).</li>
+ <li>Use <code>if</code> to modify the variable that represents the spot where the user wants to make a move.</li>
+ <li>Print board with lines like this: <code>print("{}|{}|{}".format(spot1, spot2, spot3))</code></li>
+</ul>
+<br>
+
+Your game might look like this:
+
+<code><pre>
+Where do you want to go? 1
+X| |
+-----
+ | |
+-----
+ | |
+
+Where do you want to go? 5
+X| |
+-----
+ |X|
+-----
+ | |
+</pre></code>
+<br>
+
+<h3>Extension</h3>
+Once you have this simple version of Tic-Tac-Toe working, try to add more features, such as:
+<ul>
+    <li>Two users who play against each other</li>
+    <li>The game tells you when someone won</li>
+</ul>
+
+<br><br>
+
+For more Python tips, see the <a href="../reference/cheat_sheet.html">Python cheat sheet</a>. 
+
+<br><br>
+
+</body>
+</html>
+
